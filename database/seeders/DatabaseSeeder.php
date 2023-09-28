@@ -15,6 +15,7 @@ class UserSeeder extends Seeder
         $this->call([
             UserSeeder::class,
             MobilSeeder::class,
+            RentalSeeder::class,
         ]);
     }
 }
